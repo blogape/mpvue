@@ -5,32 +5,31 @@
 </template>
 
 <script>
-import {get} from './util.js';
-import qcloud from 'wafer2-client-sdk';
-import config from './config.js';
+import { get,showSuccess} from "./util.js";
+import qcloud from "wafer2-client-sdk";
+import config from "./config.js";
 export default {
-async created(){
-// const res=await get('');
-var qcloud = require('./bower_components/qcloud-weapp-client-sdk/index.js');
+  async created() {
 
+    let user=wx.getStorageSync('userinfo')
 // 设置登录地址
-qcloud.setLoginUrl('https://199447.qcloud.la/login');
-qcloud.login({
-    success: function (userInfo) {
-        console.log('登录成功', userInfo);
-    },
-    fail: function (err) {
-        console.log('登录失败', err);
-    }
-});
-
-
-console.log(123,res);
-  console.log('小程序启动啦');
+if(!user){
+  qcloud.setLoginUrl(config.loginUrl);
+    qcloud.login({
+      success: function(userInfo) {
+        console.log("登录成功", userInfo);
+      },
+      fail: function(err) {
+        showSuccess('登录失败')
+        console.log("登录失败", err);
+      }
+    });
 }
-}
+    console.log("小程序启动啦");
+  },
+  methods: {}
+};
 </script>
 
 <style>
-
 </style>
