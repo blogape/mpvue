@@ -7,25 +7,25 @@
 <!-- 分类 -->
 <div class="home-list">
   <!-- 食谱分类 -->
-<a href="#">
+<router-link to='/category'>
 <img src="../../assets/images/icon_classify.png"/>
 <span>食谱分类</span>
-</a>
+</router-link>
 <!-- 热门食谱 -->
-<a href="#">
+<router-link to='/hotrecipe'>
 <img src="../../assets/images/icon_hot.png"/>
 <span>热门食谱</span>
-</a>
+</router-link>
 <!-- 牛扒机食谱 -->
-<a href="#">
+<router-link to='/hotrecipe'>
 <img src="../../assets/images/icon_recipe_niupa.png"/>
 <span>牛扒机食谱</span>
-</a>
+</router-link>
 <!-- 面包机食谱 -->
-<a href="#">
+<router-link to='/breadrecipe'>
 <img src="../../assets/images/icon_recipe_mianbao.png"/>
 <span>面包机食谱</span>
-</a>
+</router-link>
 </div>
 
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
