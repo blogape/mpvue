@@ -1,0 +1,55 @@
+.layout-container{
+    max-width: 1056px;
+
+    z-index: 1;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+.protal-wrapper .banner{
+    padding: 58px 0px 92px;
+
+}
+.protal-wrapper .banner .text {
+    padding: 68px 0px;
+
+}
+.banner-title {
+    margin-bottom: 20px;
+    font-size: 46px
+}
+.banner .banner-img {
+    max-width: 440px;
+    margin: 0px auto;
+}
+.protal-wrapper img{
+    max-width: 100%;
+
+}
+.inuse{
+    padding: 76px 0 146px;
+    text-align: center;
+}
+.layout-container{
+    max-width:1056px;
+}
+.layout-container, .layout-container-wider {
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+.protal-wrapper h1, .protal-wrapper h2, .protal-wrapper h3, .protal-wrapper h4, .protal-wrapper h5, .protal-wrapper h6{
+    color: #262626;
+    line-height: 1.35;
+}
+.section-title{
+    font-size: 38px;
+    margin-bottom: 16px;
+}
+.enterprise-list, .enterprise-list>div{
+    margin-top:32px;
+}

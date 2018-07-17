@@ -1,0 +1,80 @@
+.lark .page-account{
+    background-color:#fafafa;
+}
+.lark{
+    background: #fff;
+    margin: 0 auto;
+    position: relative;
+}
+
+.main-wrapper{
+    min-height: calc(100vh - 60px - 54px);
+
+}
+.layout-container{
+    max-width:1056px;
+}
+.layout-container, .layout-container-wider{
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+.lark-login .lark-form{
+    padding-top:96px;
+    width: 430px;
+    margin: auto;
+}
+.lark-form-main{
+    background-color: #fff;
+    padding: 56px 8px 72px;
+    margin-bottom: 64px;
+    border: 1px solid #E9E9E9;
+    border-radius: 4px;
+}
+.lark-form-main .lark-form-logo{
+    max-width: 320px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 24px;
+}
+.account-slogon{
+    text-align: center;
+}
+.lark-form-main .lark-form-content{
+    max-width: 320px;
+    margin: 0 auto;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center;
+}
+.lark-form-main .lark-form-content .account-slogon-main{
+    font-size: 24px;
+    line-height: 32px;
+    color: #262626;
+
+}
+.lark-form-main .lark-form-content .account-slogon-subhead{
+    color: #595959;
+    margin-top: 12px;
+}
+
+.account-input{
+    padding:0 20px;
+}
+.account-input .ant-input-affix-wrapper{
+    margin-top: 20px;
+}
+.account-input .ant-input-affix-wrapper .ant-input{
+    padding:20px 35px;
+}
+.account-input{
+    width: 100%;
+}
+
+.account-input button{
+    width: 100%;
+    height: 45px;
+    margin-top: 20px;
+}

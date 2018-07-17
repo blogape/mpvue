@@ -1,0 +1,65 @@
+.App .header{
+ 
+}
+.layout-container{
+    max-width: 1056px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+.header-nav-left{
+
+}
+.logo-link .image.image-default{
+    width: 80px;
+
+}
+.header .logo{
+    float: left;
+    margin-right: 40px;
+    align-items:center;
+    display: flex;
+}
+.logo-link{
+    display: flex;
+    align-items: center;
+
+}
+.logo-link .image{
+    height: 32px;
+    border-radius: 3px;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.header-nav-left{
+    float: left;
+
+}
+.ant-menu-horizontal{
+    margin-top:-8px;
+    border-bottom: none;
+}
+.ant-menu-horizontal>.ant-menu-item-active, .ant-menu-horizontal>.ant-menu-item-open, .ant-menu-horizontal>.ant-menu-item-selected, .ant-menu-horizontal>.ant-menu-item:hover, .ant-menu-horizontal>.ant-menu-submenu-active, .ant-menu-horizontal>.ant-menu-submenu-open, .ant-menu-horizontal>.ant-menu-submenu-selected, .ant-menu-horizontal>.ant-menu-submenu:hover{
+    border-top: 3px solid #1890ff;
+    color: #1890ff;
+    border-bottom: none;
+    padding-top: -5px;
+
+}
+.ant-menu-horizontal>.ant-menu-item, .ant-menu-horizontal>.ant-menu-submenu{
+top:-6px;
+border-bottom: none;
+}
+
+.ant-menu-horizontal>.ant-menu-item>a{
+    padding-top: 5px;
+}
+.header-nav-right{
+    float: right;
+}
+.header-nav-right .login-action a{
+margin-left: 20px;
+}
