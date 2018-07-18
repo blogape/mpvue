@@ -1,21 +1,14 @@
 import React, { Component } from "react";
 import "./index.css";
-import {
-  Form,
-  Input,
-  Tooltip,
-  Icon,
-  Cascader,
-  Select,
-  Row,
-  Col,
-  Checkbox,
-  Button,
-  AutoComplete
-} from "antd";
+import { Form, Input, Tooltip, Icon, Cascader, Select, Row, Col, Checkbox, Button, AutoComplete } from 'antd';
+const FormItem = Form.Item;
+const Option = Select.Option;
+const AutoCompleteOption = AutoComplete.Option;
 
-class Login extends Component {
+
+class Register extends Component {
   render() {
+   
     return (
       <div className="lark page-account lark-login">
         <div className="main-wrapper">
@@ -31,7 +24,7 @@ class Login extends Component {
                   </a>
                 </div>
                 <div className="account-slogon">
-                  <h2 className="account-slogon-main">欢迎回到语雀</h2>
+                  <h2 className="account-slogon-main">欢迎加入语雀</h2>
                   <p className="account-slogon-subhead">
                     <span>写文档，就用语雀</span>
                   </p>
@@ -44,6 +37,18 @@ class Login extends Component {
                     placeholder="用户名"
                   />
                   <Input
+                  prefix={
+                    <Icon type="mobile" style={{ color: "rgba(0,0,0,.25)" }} />
+                  }
+                  placeholder="请输入手机号码"
+                />
+                <Input
+                prefix={
+                  <Icon type="key" style={{ color: "rgba(0,0,0,.25)" }} />
+                }
+                placeholder="请输入邀请码"
+              />
+                  <Input
                     type="password"
                     prefix={
                       <Icon type="lock" style={{ color: "rgba(0,0,0,.25)" }} />
@@ -51,7 +56,7 @@ class Login extends Component {
                     placeholder="密码"
                   />
                   <Button type="primary" span={24}>
-                    登录
+                    注册
                   </Button>
                 </div>
                 <div className="third-login">
@@ -62,7 +67,7 @@ class Login extends Component {
                       </a>
                     </div>
                     <div className="ant-col-12 dingtalk-extra">
-                      <a href="/register">免费注册账户</a>
+                      <a href="/login">直接登录</a>
                     </div>
                   </div>
                 </div>
@@ -75,4 +80,4 @@ class Login extends Component {
   }
 }
 
-export default Login;
+export default Register;
